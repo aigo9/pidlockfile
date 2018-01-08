@@ -27,13 +27,13 @@ with codecs.open(os.path.join(here, "README.rst"), encoding="utf-8") as f:
 setup(
     name = 'pidlockfile',
     packages = ['pidlockfile'],
-    version = '0.2',
+    version = '0.3',
     description = 'PID file implementation for use with python-daemon',
     long_description = long_description,
     author = 'Alexei Igonine',
     author_email = 'aigonine@gmail.com',
     url = 'https://github.com/aigo9/pidlockfile',
-    download_url = 'https://github.com/aigo9/pidlockfile/archive/0.2.tar.gz',
+    download_url = 'https://github.com/aigo9/pidlockfile/archive/0.3.tar.gz',
     keywords = ['python', 'daemon', 'python-daemon', 'pid', 'lock'],
     license = "Apache-2",
     classifiers = [
